@@ -70,9 +70,9 @@ function initializeApp() {
   const addParticipantsMessage = (data) => {
     let message = '';
     if (data.numUsers === 1) {
-      message += `there's 1 participant`;
+      message += `there's 1 person online`;
     } else {
-      message += `there are ${data.numUsers} participants`;
+      message += `there are ${data.numUsers} persons online`;
     }
     log(message);
   }

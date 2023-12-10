@@ -1,5 +1,5 @@
-name: CI for Group 2 Chat Application - Feature
-run-name: ${{ github.actor }} is running CICD for Group 2 Chat Application - Development
+name: CI for Wadapdoge - Feature
+run-name: ${{ github.actor }} is running CICD for Wadapdoge - Feature
 
 # The workflow is triggered on pull request event to the 'uat' branch
 on:

@@ -1,5 +1,5 @@
-name: CICD for Group 2 Chat Application - Development
-run-name: ${{ github.actor }} is running CICD for Group 2 Chat Application - Development
+name: CICD for Wadapdoge - UAT
+run-name: ${{ github.actor }} is running CICD for Wadapdoge - UAT
 
 # The workflow is triggered on pull request event to the 'uat' branch
 on:
@@ -59,7 +59,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          role-to-assume: ${{ secrets.DEV_ROLE_TO_ASSUME }}
+          role-to-assume: ${{ secrets.IAM_ROLE }}
           aws-region: us-east-1
       
       # Log in to Amazon ECR (Elastic Container Registry)
